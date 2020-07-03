@@ -20,7 +20,7 @@ setup(
     name="notebook-as-pdf",
     packages=find_packages(),
     python_requires=">=3.7",
-    url="https://github.com/betatim/notebook-as-pdf",
+    url="https://github.com/ritesh-nanda/PDF-jupyter-notebook",
     entry_points={
         "nbconvert.exporters": ["PDFviaHTML = notebook_as_pdf:PDFExporter"]
     },
